@@ -556,11 +556,11 @@
 		width: 100%;
 	}
 
-	.mw-stats-icon, .mw-online-icon, .mw-birthday-icon {
+	.mw-stats-icon, .mw-online-icon, .mw-birthday-icon, .mw-login-icon {
 		display: none;
 	}
 	
-	.stat-block, .stat-block-online, .stat-block-birthday {
+	.stat-block, .stat-block-online, .stat-block-birthday, .stat-block-login {
 		margin-left: 0px !important;
 	}	
 }

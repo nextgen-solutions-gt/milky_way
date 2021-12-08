@@ -77,9 +77,18 @@ li.row:last-child {
 .mw-stats-icon {
 	position: absolute;
 	width: 32px;
-	height: 50%;
+	height: 75%;
 	border-right: 1px solid #DDDDDD;
 	background: url("images/stats.png") no-repeat center center;
+	padding-right: 15px;
+}
+
+.mw-login-icon {
+	position: absolute;
+	width: 32px;
+	height: 65%;
+	border-right: 1px solid #DDDDDD;
+	background: url("images/login.png") no-repeat center center;
 	padding-right: 15px;
 }
 
@@ -106,8 +115,20 @@ li.row:last-child {
 	border-bottom: 1px solid #DDDDDD;
 }
 
+.stat-block-stats {
+	padding-top: 15px;
+	margin-left: 40px;
+}
+
+.stat-block-login {
+	margin-left: 75px;
+	padding-top: 1px;
+	text-align: center;
+}
+
 .stat-block-online {
 	margin-left: 75px;
+	height: 75px;
 }
 
 .stat-block-birthday {
