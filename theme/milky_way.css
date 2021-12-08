@@ -1,0 +1,233 @@
+/* Forum wrap */
+.wrapcentre {
+	padding: 15px;
+}
+
+/* breacrumb*/
+.bc-tbl {
+	border: solid 1px #AAAAAA;
+	background-color: #F8F8F8;
+	margin: 5px 0;
+	padding: 3px 5px;	
+}
+
+ul.topiclist {
+	border-bottom: #AAAAAA solid 1px;
+}
+
+ul.topiclist li.header {
+	margin-bottom:5px;
+}
+
+li.header dl.row-item dt .list-inner {
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+}
+
+dd.redirect {
+	width:440px;
+}
+
+/* Milky Way Wrapper*/
+.mw-forumwrap {
+	border: 1px solid #AAAAAA;
+	border-radius: 7px;
+	border-top: 0;
+	border-bottom: 0;
+	box-shadow: 0 4px 2px -2px gray;
+}
+
+li.row:last-child {
+	border-bottom: none;
+}
+
+/* Mily Way Category Bottom */
+.cat-bottom {
+	background: #DDE8EE url("./images/bg_catbottom.gif") repeat-x;
+	height: 28px;
+	min-height: 28px;
+	text-align: center;
+	padding: 0px;
+}
+
+.bottom-copyright {
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+.bottom_logo {
+	border: 0px solid #FFFFFF;
+	background: url("./images/bg_footer.gif") repeat;
+	padding: 10px;
+	color: #000000;
+}
+
+.bottom_logo a {
+	font-weight: bold;
+	color: #000000;
+}
+
+/* Milky Way stats custom */
+.mw-stats {
+	position: relative;
+	background: #EFEFEF;
+}
+
+.mw-stats-icon {
+	position: absolute;
+	width: 32px;
+	height: 50%;
+	border-right: 1px solid #DDDDDD;
+	background: url("images/stats.png") no-repeat center center;
+	padding-right: 15px;
+}
+
+.mw-online-icon {
+	position: absolute;
+	width: 64px;
+	height: 75%;
+	border-right: 1px solid #DDDDDD;
+	background: url("images/online.png") no-repeat center center;
+	padding-right: 15px;
+}
+
+.mw-birthday-icon {
+	position: absolute;
+	width: 32px;
+	height: 50%;
+	border-right: 1px solid #DDDDDD;
+	background: url("images/birthdays.png") no-repeat center center;
+	padding-right: 15px;
+}
+
+.stat-block {
+	padding-left: 15px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.stat-block-online {
+	margin-left: 75px;
+}
+
+.stat-block-birthday {
+	margin-left: 40px;
+}
+
+.stat-block ul.topiclist {
+	border-bottom: 0;
+}
+
+.mw-forumwrap h3 {
+	margin-top: 0;
+	text-align: center;
+}
+
+/* ------- Forum & Topic Icons (Pulsing) ------- */
+dl.row-item {
+	background-image: none;
+}
+
+.forums .row-item:before, .topics .row-item:before, .pmlist .row-item:before, .cplist .row-item:before {
+	font-family: FontAwesome;
+	text-align: center;
+	position: absolute;
+	left: 5px;
+	top: 4px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 50%;
+	background: rgba(13, 13, 13, 0.1);
+	font-size: 14px;
+}
+
+/* Spotted topics */
+.global_read_mine:after, .global_read_locked_mine:after, .global_unread_mine:after, .global_unread_locked_mine:after, .announce_read_mine:after, .announce_read_locked_mine:after, .announce_unread_mine:after, .announce_unread_locked_mine:after, .sticky_read_mine:after, .sticky_read_locked_mine:after, .sticky_unread_mine:after, .sticky_unread_locked_mine:after, .topic_read_mine:after, .topic_read_hot_mine:after, .topic_unread_mine:after, .topic_unread_hot_mine:after, .topic_read_locked_mine:after, .topic_unread_locked_mine:after {
+	position: absolute;
+	top: 6px;
+	left: 30px;
+	font-family: FontAwesome;
+	content: "\f005";
+	font-size: 7px;
+	color: #fb5500;
+	width: 6px;
+	height: 6px;
+	border-radius: 6px;
+}
+
+/* Adjustments for weirdly sized icons */
+/* Nudge the speech bubble up a few pixels */
+.topic_read:before, .topic_read_mine:before, .topic_read_hot:before, .topic_read_hot_mine:before, .topic_unread:before, .topic_unread_mine:before, .topic_unread_hot:before, .topic_unread_hot_mine:before {
+	line-height: 28px !important;
+}
+
+/* External link left and down */
+.forum_link:before {
+	line-height: 0 !important;
+	width: 30px !important;
+	height: 15px !important;
+	padding: 16px 0 1px 2px;
+}
+
+/* Set the icons */							/* Megaphone */
+.global_read:before							{content: "\f0a1";}
+.global_read_mine:before					{content: "\f0a1";}
+.global_read_locked:before					{content: "\f0a1";}
+.global_read_locked_mine:before				{content: "\f0a1";}
+.global_unread:before						{content: "\f0a1";}
+.global_unread_mine:before					{content: "\f0a1";}
+.global_unread_locked:before				{content: "\f0a1";}
+.global_unread_locked_mine:before			{content: "\f0a1";}
+											/* Megaphone */
+.announce_read:before						{content: "\f0a1";}
+.announce_read_mine:before					{content: "\f0a1";}
+.announce_read_locked:before				{content: "\f0a1";}
+.announce_read_locked_mine:before			{content: "\f0a1";}
+.announce_unread:before						{content: "\f0a1";}
+.announce_unread_mine:before				{content: "\f0a1";}
+.announce_unread_locked:before				{content: "\f0a1";}
+.announce_unread_locked_mine:before			{content: "\f0a1";}
+											/* External link */
+.forum_link:before							{content: "\f08e";}
+											/* Speech Bubble */
+.forum_read:before							{content: "\f0f6";}
+.forum_read_subforum:before					{content: "\f24d";}
+.forum_unread:before						{content: "\f0f6";}
+.forum_unread_subforum:before				{content: "\f24d";}
+											/* Pin */
+.sticky_read:before							{content: "\f08d";}
+.sticky_read_mine:before					{content: "\f08d";}
+.sticky_read_locked:before					{content: "\f08d";}
+.sticky_read_locked_mine:before				{content: "\f08d";}
+.sticky_unread:before						{content: "\f08d";}
+.sticky_unread_mine:before					{content: "\f08d";}
+.sticky_unread_locked:before				{content: "\f08d";}
+.sticky_unread_locked_mine:before			{content: "\f08d";}
+											/* Right arrow */
+.topic_moved:before							{content: "\f061";}
+											/* Envelope */
+.pm_read:before 							{content: "\f0e0";}
+.pm_unread:before 							{content: "\f0e0";}
+											/* Speech Bubble */
+.topic_read:before							{content: "\f016";}
+.topic_read_mine:before						{content: "\f016";}
+.topic_read_hot:before						{content: "\f016";}
+.topic_read_hot_mine:before					{content: "\f016";}
+.topic_unread:before						{content: "\f016";}
+.topic_unread_mine:before					{content: "\f016";}
+.topic_unread_hot:before					{content: "\f016";}
+.topic_unread_hot_mine:before				{content: "\f016";}
+											/* Padlock */
+.forum_read_locked:before					{content: "\f023";}
+.forum_unread_locked:before					{content: "\f023";}
+.topic_read_locked:before					{content: "\f023";}
+.topic_read_locked_mine:before				{content: "\f023";}
+.topic_unread_locked:before					{content: "\f023";}
+.topic_unread_locked_mine:before			{content: "\f023";}
+
+
+/* Unread States */
+.global_unread:before, .global_unread_mine:before, .global_unread_locked:before, .global_unread_locked_mine:before, .announce_unread:before, .announce_unread_mine:before, .announce_unread_locked:before, .announce_unread_locked_mine:before, .forum_unread:before, .forum_unread_locked:before, .forum_unread_subforum:before, .sticky_unread:before, .sticky_unread_mine:before, .sticky_unread_locked:before, .sticky_unread_locked_mine:before, .pm_unread:before, .topic_unread:before, .topic_unread_mine:before, .topic_unread_hot:before, .topic_unread_hot_mine:before, .topic_unread_locked:before, .topic_unread_locked_mine:before {
+	color: #ff5500;
+}
