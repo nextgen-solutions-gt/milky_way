@@ -3,7 +3,7 @@
 	Style name:			Milky Way
 	Based on style:		prosilver (the default phpBB 3.3.x style)
 	Original author:	Tom Beddard ( http://www.subblue.com/ )
-	Modified by:		Melvin García ( https://www.melvingarcia.com/ )
+	Modified by:		nextgen ( https://nextgen.gt/ )
     --------------------------------------------------------------
 */
 
@@ -19,4 +19,4 @@
 @import url("../../prosilver/theme/icons.css?hash=64da33ce");
 @import url("colours.css?hash=fcb2f289");
 @import url("responsive.css?hash=87b53e08");
-@import url("milky_way.css?v=2.0.0");
+@import url("milky_way.css?v=2.0.4");
